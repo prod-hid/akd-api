@@ -1,14 +1,18 @@
-package hello;
+package com.eacademy.app;
 
-public class Greeting {
+import java.util.List;
+
+public class ExampleClass {
 
     private final long id;
     private final String content;
 
-    public Greeting(long id, String content) {
+
+    public ExampleClass(long id, String content) {
         this.id = id;
         this.content = content;
     }
+
 
     public long getId() {
         return id;
@@ -17,4 +21,6 @@ public class Greeting {
     public String getContent() {
         return content;
     }
+
 }
+
